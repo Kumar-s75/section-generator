@@ -573,3 +573,7 @@ pre:focus-visible {
 .node-row .preview-button {
   padding: 10px 20px;
 }
+.node-row .preview-primary {
+  background: var(--section-accent);
+  color: #fff;
+}
