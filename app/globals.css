@@ -244,3 +244,7 @@ pre:focus-visible {
   outline: 1px dashed #9fb6c3;
   outline-offset: 2px;
 }
+.is-selected > .editable {
+  outline: 1px solid #4f91b6;
+  outline-offset: 2px;
+}
