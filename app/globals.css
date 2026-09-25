@@ -454,3 +454,16 @@ pre:focus-visible {
   padding: 8px;
   box-shadow: 0 4px 12px #0001;
 }
+.view-options-panel > div {
+  display: flex;
+  gap: 6px;
+  margin: 2px;
+}
+.view-options-panel button {
+  gap: 5px;
+  border: 0;
+  border-radius: 3px;
+  padding: 6px;
+  background: #fff;
+  color: #60727f;
+}
