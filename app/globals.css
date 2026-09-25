@@ -251,3 +251,15 @@ pre:focus-visible {
 .editable::selection {
   background: #c5dcea;
 }
+.selection-handles {
+  position: absolute;
+  inset: -3px;
+  pointer-events: none;
+}
+.selection-handles i {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #5b94b3;
+  background: #f9fcfe;
+}
