@@ -443,3 +443,14 @@ pre:focus-visible {
 .view-options summary:hover {
   color: #395468;
 }
+.view-options-panel {
+  position: absolute;
+  bottom: 33px;
+  right: 0;
+  width: 218px;
+  background: #fff;
+  border: 1px solid #dbe1e4;
+  border-radius: 6px;
+  padding: 8px;
+  box-shadow: 0 4px 12px #0001;
+}
