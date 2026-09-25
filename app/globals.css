@@ -81,3 +81,7 @@ pre:focus-visible {
   color: #252b30;
   background: #fff;
 }
+.prompt-form input::placeholder {
+  color: #666d72;
+  opacity: 1;
+}
