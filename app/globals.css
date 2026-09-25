@@ -679,3 +679,12 @@ pre:focus-visible {
     font-size: 9px;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  .spin {
+    animation: none;
+  }
+  .feedback.success {
+    animation: none;
+  }
+}
+
