@@ -318,3 +318,14 @@ pre:focus-visible {
   border-right: 1px solid #e4e5e7;
   border-bottom: 1px solid #e4e5e7;
 }
+.format-toolbar > button {
+  border: 0;
+  background: none;
+  width: 25px;
+  height: 27px;
+  padding: 3px;
+  border-radius: 3px;
+}
+.format-toolbar > button:hover {
+  background: #edf3f6;
+}
