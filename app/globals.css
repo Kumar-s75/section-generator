@@ -167,3 +167,10 @@ pre:focus-visible {
   padding-top: 14px;
   padding-bottom: 14px;
 }
+.pricing-card h2 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin: 0;
+}
