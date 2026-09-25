@@ -224,3 +224,11 @@ pre:focus-visible {
   min-height: 30px;
   cursor: text;
 }
+.editable-shell {
+  display: block;
+  position: relative;
+  min-width: 0;
+}
+.editable-shell.inline-shell {
+  flex: 1;
+}
