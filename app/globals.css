@@ -601,3 +601,7 @@ pre:focus-visible {
   background: #343c4e;
   border-color: var(--section-border);
 }
+.theme-dark .price,
+.theme-dark .feature-list li {
+  color: #eef2f5;
+}
