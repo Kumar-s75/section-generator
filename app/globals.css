@@ -593,3 +593,7 @@ pre:focus-visible {
   padding: 36px 18px;
   border-radius: 8px;
 }
+.theme-dark .pricing-card {
+  background: #28343c;
+  border-color: #52616b;
+}
