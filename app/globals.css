@@ -263,3 +263,11 @@ pre:focus-visible {
   border: 1px solid #5b94b3;
   background: #f9fcfe;
 }
+.selection-handles i:nth-child(1) {
+  left: -2px;
+  top: -2px;
+}
+.selection-handles i:nth-child(2) {
+  right: -2px;
+  top: -2px;
+}
