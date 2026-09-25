@@ -613,3 +613,6 @@ pre:focus-visible {
   color: #edf3f6;
   border-color: #5b6e7b;
 }
+.theme-dark .node-container p {
+  color: #b8c8d1;
+}
