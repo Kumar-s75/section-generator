@@ -112,3 +112,10 @@ pre:focus-visible {
 .save-button:hover:not(:disabled) {
   background: #387b42;
 }
+.generate-button:disabled {
+  opacity: 0.65;
+}
+.save-button:disabled {
+  background: #488e51;
+  color: #f0f5f0;
+}
