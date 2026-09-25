@@ -508,3 +508,20 @@ pre:focus-visible {
     opacity: 0;
   }
 }
+.replace-confirm {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(390px, calc(100% - 30px));
+  background: #fff;
+  border: 1px solid #d5dfe5;
+  box-shadow: 0 4px 15px #0001;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  z-index: 20;
+}
+.replace-confirm p {
+  margin: 0 0 12px;
+}
