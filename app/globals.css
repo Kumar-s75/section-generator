@@ -279,3 +279,11 @@ pre:focus-visible {
   right: -2px;
   top: calc(50% - 3px);
 }
+.selection-handles i:nth-child(5) {
+  left: -2px;
+  bottom: -2px;
+}
+.selection-handles i:nth-child(6) {
+  right: -2px;
+  bottom: -2px;
+}
