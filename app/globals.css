@@ -130,3 +130,13 @@ pre:focus-visible {
   justify-content: center;
   padding: 62px 24px;
 }
+.preview-page {
+  width: 100%;
+  container-type: inline-size;
+}
+.generated-section {
+  --section-accent: #24495e;
+  --section-border: #7195a9;
+  --section-soft: #f7fafb;
+  text-align: center;
+}
