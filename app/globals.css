@@ -100,3 +100,9 @@ pre:focus-visible {
   width: 69px;
   flex-shrink: 0;
 }
+.save-button {
+  justify-self: end;
+  background: #488e51;
+  border-color: #599c61;
+  padding: 0 10px;
+}
