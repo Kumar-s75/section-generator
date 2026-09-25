@@ -85,3 +85,18 @@ pre:focus-visible {
   color: #666d72;
   opacity: 1;
 }
+.generate-button,
+.save-button {
+  border-radius: 5px;
+  padding: 0 11px;
+  border: 1px solid #315267;
+  background: #234459;
+  color: #fff;
+  font-size: 12px;
+  height: 27px;
+  white-space: nowrap;
+}
+.generate-button {
+  width: 69px;
+  flex-shrink: 0;
+}
