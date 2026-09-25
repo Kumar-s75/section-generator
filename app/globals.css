@@ -499,3 +499,12 @@ pre:focus-visible {
 .feedback.error {
   color: #a84034;
 }
+@keyframes quiet-status {
+  0%,
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
