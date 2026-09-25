@@ -688,3 +688,6 @@ pre:focus-visible {
   }
 }
 
+.pricing-grid {
+  transform: translate(-1px, -6px);
+}
