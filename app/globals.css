@@ -616,3 +616,6 @@ pre:focus-visible {
 .theme-dark .node-container p {
   color: #b8c8d1;
 }
+.spin {
+  animation: spin 1s linear infinite;
+}
