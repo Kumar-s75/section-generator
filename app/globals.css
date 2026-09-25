@@ -535,3 +535,9 @@ pre:focus-visible {
 .mobile-preview .preview-page {
   max-width: 375px;
 }
+.generated-section h1 {
+  font-size: 42px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -1.3px;
+}
