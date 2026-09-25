@@ -467,3 +467,8 @@ pre:focus-visible {
   background: #fff;
   color: #60727f;
 }
+.view-options-panel button[aria-selected="true"],
+.view-options-panel button[aria-pressed="true"] {
+  background: #ecf2f6;
+  color: #234459;
+}
