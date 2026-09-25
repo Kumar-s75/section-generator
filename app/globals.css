@@ -605,3 +605,6 @@ pre:focus-visible {
 .theme-dark .feature-list li {
   color: #eef2f5;
 }
+.theme-dark .feature-list {
+  border-color: #52616b;
+}
