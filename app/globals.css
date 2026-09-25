@@ -485,3 +485,14 @@ pre:focus-visible {
   border-radius: 6px;
   padding: 20px;
 }
+.feedback {
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+  max-width: calc(100% - 75px);
+  font-size: 10px;
+  color: #627c67;
+}
+.feedback.success {
+  animation: quiet-status 6s forwards;
+}
