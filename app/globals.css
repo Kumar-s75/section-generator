@@ -694,3 +694,8 @@ pre:focus-visible {
 .view-options {
   opacity: 0;
 }
+.workspace:hover .view-options,
+.view-options:focus-within,
+.view-options[open] {
+  opacity: 1;
+}
