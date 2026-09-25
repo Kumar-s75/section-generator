@@ -587,3 +587,9 @@ pre:focus-visible {
   --section-soft: #fcf2f5;
   --section-border: #c28ca0;
 }
+.generated-section.theme-dark {
+  color: #eef2f5;
+  background: #20292f;
+  padding: 36px 18px;
+  border-radius: 8px;
+}
