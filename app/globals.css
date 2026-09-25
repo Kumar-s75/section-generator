@@ -648,3 +648,34 @@ pre:focus-visible {
     flex-wrap: wrap;
   }
 }
+@media (max-width: 760px) {
+  .builder-toolbar {
+    grid-template-columns: 1fr auto;
+    height: auto;
+    padding: 10px 12px;
+    gap: 10px;
+  }
+  .brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .save-button {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .prompt-form {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+  }
+  .canvas-content {
+    min-height: calc(100svh - 89px);
+    padding: 72px 16px;
+  }
+  .workspace {
+    min-height: calc(100svh - 89px);
+  }
+  .feedback {
+    font-size: 9px;
+  }
+}
