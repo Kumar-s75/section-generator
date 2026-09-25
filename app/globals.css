@@ -691,3 +691,6 @@ pre:focus-visible {
 .pricing-grid {
   transform: translate(-1px, -6px);
 }
+.view-options {
+  opacity: 0;
+}
