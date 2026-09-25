@@ -472,3 +472,16 @@ pre:focus-visible {
   background: #ecf2f6;
   color: #234459;
 }
+.json-view {
+  margin: 0;
+  width: min(800px, 100%);
+  max-height: calc(100svh - 160px);
+  overflow: auto;
+  text-align: left;
+  font-size: 11px;
+  line-height: 1.7;
+  background: #f6f9fb;
+  border: 1px solid #e1e7eb;
+  border-radius: 6px;
+  padding: 20px;
+}
