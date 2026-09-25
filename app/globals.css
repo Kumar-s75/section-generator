@@ -597,3 +597,7 @@ pre:focus-visible {
   background: #28343c;
   border-color: #52616b;
 }
+.theme-dark .pricing-card.highlighted {
+  background: #343c4e;
+  border-color: var(--section-border);
+}
