@@ -379,3 +379,16 @@ pre:focus-visible {
 .link-popover label {
   display: block;
 }
+.link-popover input {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #cbd4da;
+  border-radius: 3px;
+  padding: 6px;
+}
+.link-popover button {
+  border: 1px solid #cbd4da;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
