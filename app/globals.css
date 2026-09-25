@@ -329,3 +329,9 @@ pre:focus-visible {
 .format-toolbar > button:hover {
   background: #edf3f6;
 }
+.format-divider {
+  height: 21px;
+  width: 1px;
+  background: #e1e2e4;
+  margin: 0 5px;
+}
