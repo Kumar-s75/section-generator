@@ -608,3 +608,8 @@ pre:focus-visible {
 .theme-dark .feature-list {
   border-color: #52616b;
 }
+.theme-dark .preview-button {
+  background: #394a56;
+  color: #edf3f6;
+  border-color: #5b6e7b;
+}
