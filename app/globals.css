@@ -248,3 +248,6 @@ pre:focus-visible {
   outline: 1px solid #4f91b6;
   outline-offset: 2px;
 }
+.editable::selection {
+  background: #c5dcea;
+}
