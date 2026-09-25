@@ -582,3 +582,8 @@ pre:focus-visible {
   --section-soft: #f3f1fb;
   --section-border: #918cc4;
 }
+.generated-section.accent-rose {
+  --section-accent: #a35571;
+  --section-soft: #fcf2f5;
+  --section-border: #c28ca0;
+}
