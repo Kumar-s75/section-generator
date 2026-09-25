@@ -232,3 +232,15 @@ pre:focus-visible {
 .editable-shell.inline-shell {
   flex: 1;
 }
+.editable {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  min-height: 1em;
+  outline: none;
+  cursor: text;
+}
+.editable:hover {
+  outline: 1px dashed #9fb6c3;
+  outline-offset: 2px;
+}
