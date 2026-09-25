@@ -544,3 +544,10 @@ pre:focus-visible {
 .generated-section > .editable-shell {
   margin: 0 auto 30px;
 }
+.node-container {
+  max-width: 650px;
+  margin: auto;
+}
+.node-container > .editable-shell {
+  margin-bottom: 22px;
+}
