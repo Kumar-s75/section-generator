@@ -52,3 +52,16 @@ pre:focus-visible {
   background: #fff;
   gap: 12px;
 }
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.35px;
+}
+.brand svg {
+  width: 20px;
+  height: 23px;
+}
