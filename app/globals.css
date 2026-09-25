@@ -496,3 +496,6 @@ pre:focus-visible {
 .feedback.success {
   animation: quiet-status 6s forwards;
 }
+.feedback.error {
+  color: #a84034;
+}
