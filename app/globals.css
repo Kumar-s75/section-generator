@@ -123,3 +123,10 @@ pre:focus-visible {
   position: relative;
   min-height: calc(100svh - 43px);
 }
+.canvas-content {
+  min-height: calc(100svh - 43px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 62px 24px;
+}
