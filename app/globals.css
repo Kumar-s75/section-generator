@@ -287,3 +287,34 @@ pre:focus-visible {
   right: -2px;
   bottom: -2px;
 }
+.format-toolbar {
+  position: absolute;
+  bottom: calc(100% + 19px);
+  left: 50%;
+  transform: translateX(-50%);
+  height: 39px;
+  width: 155px;
+  border: 1px solid #e4e5e7;
+  border-radius: 7px;
+  box-shadow: 0 5px 13px #00000021;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  padding: 5px;
+  z-index: 5;
+  color: #34383a;
+}
+.format-toolbar::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  bottom: -5px;
+  left: calc(50% - 4px);
+  transform: rotate(45deg);
+  background: #fff;
+  border-right: 1px solid #e4e5e7;
+  border-bottom: 1px solid #e4e5e7;
+}
