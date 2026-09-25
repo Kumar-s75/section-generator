@@ -405,3 +405,12 @@ pre:focus-visible {
 .empty-state > svg {
   margin: 0 auto 15px;
 }
+.empty-state h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #344957;
+  margin: 0 0 10px;
+}
+.empty-state p {
+  margin: 0 0 18px;
+}
