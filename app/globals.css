@@ -363,3 +363,19 @@ pre:focus-visible {
   position: absolute;
   cursor: pointer;
 }
+.link-popover {
+  position: absolute;
+  top: calc(100% + 12px);
+  width: 240px;
+  left: 0;
+  padding: 10px;
+  background: white;
+  border: 1px solid #d9e0e5;
+  border-radius: 6px;
+  box-shadow: 0 5px 12px #0002;
+  text-align: left;
+  font-size: 11px;
+}
+.link-popover label {
+  display: block;
+}
