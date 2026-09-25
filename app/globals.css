@@ -119,3 +119,7 @@ pre:focus-visible {
   background: #488e51;
   color: #f0f5f0;
 }
+.workspace {
+  position: relative;
+  min-height: calc(100svh - 43px);
+}
