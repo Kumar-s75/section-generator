@@ -532,3 +532,6 @@ pre:focus-visible {
   border: 1px solid #cbd6dc;
   border-radius: 4px;
 }
+.mobile-preview .preview-page {
+  max-width: 375px;
+}
