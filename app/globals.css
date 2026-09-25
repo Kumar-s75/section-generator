@@ -159,3 +159,11 @@ pre:focus-visible {
   flex-direction: column;
   text-align: center;
 }
+.pricing-card.highlighted {
+  background: var(--section-soft);
+  border-color: var(--section-border);
+  box-shadow: 0 4px 10px #1f33451c;
+  min-height: 266px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
