@@ -577,3 +577,8 @@ pre:focus-visible {
   background: var(--section-accent);
   color: #fff;
 }
+.generated-section.accent-indigo {
+  --section-accent: #5b58a2;
+  --section-soft: #f3f1fb;
+  --section-border: #918cc4;
+}
