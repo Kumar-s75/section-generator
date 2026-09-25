@@ -423,3 +423,16 @@ pre:focus-visible {
   color: #395468;
   font-size: 12px;
 }
+.view-options {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+  z-index: 10;
+  font-size: 11px;
+}
+.view-options summary {
+  list-style: none;
+  color: #b5bfc6;
+  border-radius: 4px;
+  padding: 4px;
+}
