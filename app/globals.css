@@ -630,3 +630,21 @@ pre:focus-visible {
     row-gap: 20px;
   }
 }
+@container (max-width: 550px) {
+  .pricing-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+  .pricing-grid:has(> .pricing-card:nth-child(4)) {
+    grid-template-columns: 1fr !important;
+  }
+  .pricing-card {
+    width: 220px;
+  }
+  .generated-section h1 {
+    font-size: 32px;
+  }
+  .node-row {
+    flex-wrap: wrap;
+  }
+}
