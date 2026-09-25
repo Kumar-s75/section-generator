@@ -335,3 +335,24 @@ pre:focus-visible {
   background: #e1e2e4;
   margin: 0 5px;
 }
+.color-control {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff668d,
+    #f0dd53,
+    #82d996,
+    #70cbe1,
+    #a785e8,
+    #ff668d
+  );
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.color-control:focus-within {
+  outline: 2px solid #5b94b3;
+  outline-offset: 2px;
+}
