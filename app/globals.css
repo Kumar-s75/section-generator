@@ -525,3 +525,10 @@ pre:focus-visible {
 .replace-confirm p {
   margin: 0 0 12px;
 }
+.replace-confirm button {
+  padding: 6px 10px;
+  margin-right: 6px;
+  background: #eef3f6;
+  border: 1px solid #cbd6dc;
+  border-radius: 4px;
+}
