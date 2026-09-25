@@ -148,3 +148,14 @@ pre:focus-visible {
   margin: 0 auto;
   align-items: center;
 }
+.pricing-card {
+  border: 1px solid #dce0e2;
+  border-radius: 8px;
+  width: 168px;
+  min-height: 260px;
+  padding: 14px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
