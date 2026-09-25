@@ -414,3 +414,12 @@ pre:focus-visible {
 .empty-state p {
   margin: 0 0 18px;
 }
+.empty-state button {
+  border: 1px solid #d6dfe4;
+  border-radius: 5px;
+  padding: 7px 12px;
+  margin: 0 4px;
+  background: #f6f9fa;
+  color: #395468;
+  font-size: 12px;
+}
