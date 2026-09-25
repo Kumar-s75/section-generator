@@ -106,3 +106,9 @@ pre:focus-visible {
   border-color: #599c61;
   padding: 0 10px;
 }
+.generate-button:hover:not(:disabled) {
+  background: #19394d;
+}
+.save-button:hover:not(:disabled) {
+  background: #387b42;
+}
