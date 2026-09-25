@@ -699,3 +699,8 @@ pre:focus-visible {
 .view-options[open] {
   opacity: 1;
 }
+@media (hover: none) {
+  .view-options {
+    opacity: 1;
+  }
+}
