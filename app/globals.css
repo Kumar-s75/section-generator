@@ -624,3 +624,9 @@ pre:focus-visible {
     transform: rotate(360deg);
   }
 }
+@container (max-width: 740px) {
+  .pricing-grid:has(> .pricing-card:nth-child(4)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    row-gap: 20px;
+  }
+}
