@@ -397,3 +397,11 @@ pre:focus-visible {
   color: #ad352a;
   margin-top: 5px;
 }
+.empty-state {
+  color: #75838c;
+  text-align: center;
+  font-size: 13px;
+}
+.empty-state > svg {
+  margin: 0 auto 15px;
+}
