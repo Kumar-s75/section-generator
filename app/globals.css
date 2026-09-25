@@ -551,3 +551,8 @@ pre:focus-visible {
 .node-container > .editable-shell {
   margin-bottom: 22px;
 }
+.node-container p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #687b88;
+}
