@@ -436,3 +436,10 @@ pre:focus-visible {
   border-radius: 4px;
   padding: 4px;
 }
+.view-options summary::-webkit-details-marker {
+  display: none;
+}
+.view-options[open] summary,
+.view-options summary:hover {
+  color: #395468;
+}
