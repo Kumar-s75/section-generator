@@ -196,3 +196,17 @@ pre:focus-visible {
   flex: 1;
   text-align: left;
 }
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #1b2024;
+}
+.feature-list li > svg {
+  flex-shrink: 0;
+  margin-top: 5px;
+  color: #4b5e67;
+  stroke-width: 1.5;
+}
