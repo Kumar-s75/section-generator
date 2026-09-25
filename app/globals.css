@@ -140,3 +140,11 @@ pre:focus-visible {
   --section-soft: #f7fafb;
   text-align: center;
 }
+.pricing-grid {
+  display: grid;
+  gap: 12px;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
