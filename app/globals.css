@@ -541,3 +541,6 @@ pre:focus-visible {
   font-weight: 700;
   letter-spacing: -1.3px;
 }
+.generated-section > .editable-shell {
+  margin: 0 auto 30px;
+}
